@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Oscar — game developer and 3D artist</title>
+  <desc id="desc">A moonlit abstract flower breathes while mist, petals, and fine ornamental lines drift across a dark blue-gray landscape.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10141d"/>
+      <stop offset=".48" stop-color="#26313d"/>
+      <stop offset="1" stop-color="#121820"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#eef1e9" stop-opacity=".92"/>
+      <stop offset=".65" stop-color="#bccac8" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#a5b6b8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#887a5f"/>
+      <stop offset=".5" stop-color="#d6c9a4"/>
+      <stop offset="1" stop-color="#766d5b"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#eff1e8" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#9babb0" stop-opacity=".25"/>
+    </linearGradient>
+    <filter id="blur20"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="18" y="18" width="1164" height="384" rx="3"/></clipPath>
+  </defs>
+
+  <style>
+    .mist { animation: drift 18s ease-in-out infinite alternate; }
+    .mist.back { animation-duration: 26s; animation-direction: alternate-reverse; }
+    .orbit { animation: draw 7s ease-in-out infinite alternate; }
+    .bloom { transform-origin: 600px 199px; animation: breathe 6s ease-in-out infinite; }
+    .p1 { animation: fall 9s linear infinite; }
+    .p2 { animation: fall 12s linear -5s infinite; }
+    .p3 { animation: fall 15s linear -9s infinite; }
+    .spark { animation: flicker 4s ease-in-out infinite; }
+    .spark:nth-of-type(2n) { animation-delay: -2.3s; }
+    @keyframes drift { to { transform: translateX(90px) translateY(-7px); } }
+    @keyframes draw { from { stroke-dashoffset: 150; opacity: .25; } to { stroke-dashoffset: 0; opacity: .8; } }
+    @keyframes breathe { 50% { transform: scale(1.035) rotate(1deg); opacity: .88; } }
+    @keyframes fall {
+      0% { transform: translate(0,-70px) rotate(0deg); opacity: 0; }
+      12% { opacity: .7; }
+      85% { opacity: .35; }
+      100% { transform: translate(-95px,510px) rotate(310deg); opacity: 0; }
+    }
+    @keyframes flicker { 50% { opacity: .2; transform: scale(.7); } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#sky)"/>
+    <circle cx="600" cy="187" r="170" fill="url(#moon)" filter="url(#blur20)"/>
+
+    <g class="mist back" fill="none" stroke="#8fa4aa" stroke-opacity=".08" stroke-width="34" filter="url(#blur20)">
+      <path d="M-140 110C120 48 256 166 490 105S886 40 1350 119"/>
+      <path d="M-190 330C120 248 352 371 617 303S1018 235 1390 332"/>
+    </g>
+    <g class="mist" fill="none" stroke="#d8ded8" stroke-opacity=".09" stroke-width="16" filter="url(#blur20)">
+      <path d="M-170 236C140 171 339 285 592 229S1016 163 1370 242"/>
+    </g>
+
+    <path class="orbit" d="M272 253C393 89 807 74 934 248" fill="none" stroke="url(#gold)" stroke-width="1" stroke-dasharray="3 8"/>
+    <path class="orbit" d="M343 293C457 356 756 357 866 286" fill="none" stroke="#9fb0b2" stroke-opacity=".48" stroke-width="1" stroke-dasharray="2 10"/>
+
+    <g class="bloom" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="600" cy="199" r="79" fill="#18212a" fill-opacity=".72" stroke="#d7ccb0" stroke-opacity=".45"/>
+      <path d="M600 249C584 221 559 206 531 199C558 192 580 173 600 143C620 173 642 192 669 199C641 206 616 221 600 249Z" fill="url(#petal)" stroke="#dae1dc" stroke-opacity=".56"/>
+      <path d="M600 236C577 214 566 185 567 157C588 174 612 174 633 157C634 185 623 214 600 236Z" fill="#afbfc0" fill-opacity=".18" stroke="#d8ddd6" stroke-opacity=".5"/>
+      <path d="M600 255V293M590 270C566 257 549 237 538 214M610 270C634 257 651 237 662 214" stroke="#a99d7d" stroke-opacity=".65"/>
+      <circle cx="600" cy="198" r="6" fill="#ded4b6" stroke="none" filter="url(#glow)"/>
+    </g>
+
+    <g fill="#d8d1b6" opacity=".6">
+      <circle class="spark" cx="403" cy="148" r="2"/>
+      <circle class="spark" cx="790" cy="108" r="1.5"/>
+      <circle class="spark" cx="882" cy="274" r="2"/>
+      <circle class="spark" cx="299" cy="283" r="1.5"/>
+    </g>
+
+    <g fill="url(#petal)">
+      <path class="p1" d="M205 9C218 14 224 25 221 39C210 33 204 23 205 9Z"/>
+      <path class="p2" d="M1020 -28C1031 -22 1035 -12 1031 0C1022 -5 1017 -15 1020 -28Z"/>
+      <path class="p3" d="M870 -51C882 -46 888 -34 885 -21C873 -27 868 -38 870 -51Z"/>
+    </g>
+
+    <g text-anchor="middle">
+      <text x="600" y="92" fill="#c9d1cf" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="7">BETWEEN FORM AND LOGIC</text>
+      <text x="600" y="334" fill="#eef0e9" font-family="Georgia, 'Times New Roman', serif" font-size="46" letter-spacing="12">OSCAR</text>
+      <text x="600" y="365" fill="#aeb9b9" font-family="Arial, sans-serif" font-size="10" letter-spacing="5">GAME DEVELOPER · 3D ARTIST</text>
+    </g>
+  </g>
+
+  <rect x="18.5" y="18.5" width="1163" height="383" rx="3" fill="none" stroke="#c8bea3" stroke-opacity=".3"/>
+  <path d="M18 56V18H56M1144 18H1182V56M1182 364V402H1144M56 402H18V364" fill="none" stroke="#d6c9a4" stroke-opacity=".65"/>
+</svg>
