@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">M∀b◇R◆sh/ — Maboroshi Works</title>
-  <desc id="desc">A dark atmospheric banner where the name rapidly cycles through random glyphs, then resolves one character at a time from left to right among mist and a blue-gray rose.</desc>
+  <desc id="desc">A dark atmospheric banner where the name rapidly cycles through random glyphs, then resolves one character at a time from left to right among mist and drifting red petals.</desc>
 
   <defs>
     <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
@@ -32,7 +32,10 @@
     .thread { stroke-dasharray: 3 11; animation: trace 9s linear infinite; }
     .spark { animation: flicker 4.5s ease-in-out infinite; }
     .spark:nth-child(2n) { animation-delay: -2.1s; }
-    .rose-echo { transform-origin: 1006px 210px; animation: breathe 8s ease-in-out infinite; }
+    .petal-a { animation: petalA 13s ease-in-out infinite; }
+    .petal-b { animation: petalB 16s ease-in-out -7s infinite; }
+    .petal-c { animation: petalC 18s ease-in-out -11s infinite; }
+    .petal-d { animation: petalB 15s ease-in-out -3s infinite; }
     .name-stable { animation: stableName 16s linear infinite; }
     .decode-frame { opacity: 0; animation: decodeFrame 16s linear infinite; }
     .f01 { animation-delay: 13.28s; }
@@ -54,7 +57,9 @@
     @keyframes mist { to { transform: translate(92px,-8px); } }
     @keyframes trace { to { stroke-dashoffset: -140; } }
     @keyframes flicker { 50% { opacity: .18; transform: scale(.65); } }
-    @keyframes breathe { 50% { opacity: .19; transform: scale(1.035) rotate(2deg); } }
+    @keyframes petalA { 50% { transform: translate(38px,18px) rotate(28deg); } }
+    @keyframes petalB { 50% { transform: translate(-31px,25px) rotate(-36deg); } }
+    @keyframes petalC { 50% { transform: translate(22px,-18px) rotate(42deg); } }
     @keyframes stableName { 0%,82.9%,100% { opacity: 1; } 83%,99.9% { opacity: 0; } }
     @keyframes decodeFrame { 0%,1.15% { opacity: 1; } 1.18%,100% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
@@ -83,14 +88,11 @@
       <path d="M600 76V330" stroke="#83969b" stroke-opacity=".06"/>
     </g>
 
-    <g class="rose-echo" transform="translate(1006 210)" fill="none" stroke="#83969b" stroke-width="2" opacity=".13">
-      <path d="M0 0C-35-11-53-47-26-75C9-72 31-39 17-8Z"/>
-      <path d="M0 0C16-34 53-47 79-19C70 18 37 34 8 18Z"/>
-      <path d="M0 0C34 18 42 56 13 79C-23 67-37 35-18 7Z"/>
-      <path d="M0 0C-19 33-58 40-80 9C-65-27-32-38-7-17Z"/>
-      <path d="M-25-4C-24-35 9-55 36-34C43-4 21 19-7 18Z"/>
-      <path d="M-23 9C-10-18 25-25 40-1C34 28 4 42-20 27Z"/>
-      <path d="M-9 4C-1-10 17-10 22 4C15 20-5 23-16 13Z"/>
+    <g fill="#b6474d" opacity=".72">
+      <path class="petal-a" d="M142 78C153 65 169 69 172 82C163 96 149 101 138 91C144 87 146 83 142 78Z"/>
+      <path class="petal-b" d="M252 302C263 289 280 293 283 307C274 320 260 325 249 315C255 311 257 307 252 302Z"/>
+      <path class="petal-c" d="M908 83C919 70 936 74 939 88C930 101 916 106 905 96C911 92 913 88 908 83Z"/>
+      <path class="petal-d" d="M1060 307C1071 294 1088 298 1091 312C1082 325 1068 330 1057 320C1063 316 1065 312 1060 307Z"/>
     </g>
 
     <g fill="#d9d4c5" opacity=".52">
