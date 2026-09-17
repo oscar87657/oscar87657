@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/maboroshi-header-v7.svg" width="100%" alt="안개 속에서 뒤쪽은 붉은 장미꽃잎으로 흩날리고 타격점에는 푸른 장미가 피는 망치 문양과 M∀b◇R◆sh/라는 이름이 떠오르는 애니메이션 배너" />
+  <img src="./assets/maboroshi-header-v8.svg" width="100%" alt="안개 속에서 뒤쪽은 넓은 곡선을 그리는 붉은 장미꽃잎으로 흩날리고 타격점에는 푸른 장미가 피는 망치 문양과 M∀b◇R◆sh/라는 이름이 떠오르는 애니메이션 배너" />
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 <table>
   <tr>
     <td width="30%" align="center">
-      <img src="./assets/maboroshi-works-logo-v7.png" width="180" alt="뒤쪽은 곡선을 따라 붉은 장미꽃잎으로 흩날리고 타격점에는 푸른 장미가 피는 환영공방의 망치 로고" />
+      <img src="./assets/maboroshi-works-logo-v8.png" width="180" alt="뒤쪽은 넓은 곡선 띠를 따라 붉은 장미꽃잎으로 흩날리고 타격점에는 푸른 장미가 피는 환영공방의 망치 로고" />
     </td>
     <td width="70%" valign="middle">
       <h2>환영공방</h2>

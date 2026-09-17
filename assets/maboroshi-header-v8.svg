@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">M∀b◇R◆sh/ — Maboroshi Works</title>
-  <desc id="desc">The rear of a diagonal hammer dissolves into red rose petals carried along a curved path while a blue rose blooms at its opposite impact point.</desc>
+  <desc id="desc">The rear of a diagonal hammer dissolves into red rose petals filling a broad curved stream while a blue rose blooms at its opposite impact point.</desc>
 
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
@@ -77,14 +77,17 @@
         <path d="M584 205V135H596V205Z" fill="#e7e3d8"/>
         <g fill="#b6474d">
           <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(543 216) rotate(-24) scale(.62)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(535 212) rotate(16) scale(.72)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(528 213) rotate(-18) scale(.76)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(521 207) rotate(34) scale(.72)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(516 205) rotate(-8) scale(.66)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(512 197) rotate(38) scale(.60)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(509 190) rotate(-14) scale(.55)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(507 183) rotate(28) scale(.48)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(509 176) rotate(-18) scale(.42)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(537 210) rotate(18) scale(.70)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(530 217) rotate(-16) scale(.76)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(525 209) rotate(35) scale(.72)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(517 218) rotate(-6) scale(.82)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(513 205) rotate(28) scale(.68)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(507 212) rotate(-20) scale(.76)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(503 200) rotate(40) scale(.64)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(508 190) rotate(-12) scale(.58)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(500 184) rotate(25) scale(.52)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(509 177) rotate(-18) scale(.45)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(517 171) rotate(20) scale(.36)"/>
         </g>
         <g transform="translate(646 216)" fill="#83969b" stroke="#111821" stroke-width="2">
           <path d="M0 0C-8-3-12-12-5-20C4-19 9-10 5-2Z"/>
