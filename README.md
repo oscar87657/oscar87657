@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/maboroshi-header.svg" width="100%" alt="안개와 꽃잎 사이에서 M∀b◇R◆sh/라는 이름과 망치꽃 문양이 떠오르는 애니메이션 배너" />
+  <img src="./assets/maboroshi-header-v2.svg" width="100%" alt="안개 속에서 M∀b◇R◆sh/라는 이름과 소실되는 망치 문양이 떠오르는 애니메이션 배너" />
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 <table>
   <tr>
     <td width="30%" align="center">
-      <img src="./assets/maboroshi-works-logo.png" width="180" alt="결정꽃과 망치가 결합된 환영공방 로고" />
+      <img src="./assets/maboroshi-works-logo-v2.png" width="180" alt="내려치는 망치의 손잡이 끝이 안개와 글리치로 흩어지는 환영공방 로고" />
     </td>
     <td width="70%" valign="middle">
       <h2>환영공방</h2>
