@@ -44,16 +44,16 @@
 <table>
   <tr>
     <td width="33%" align="center">
-      <b>◇ SYSTEM</b><br /><br />
-      <sub>게임의 움직임과 전투,<br />규칙이 만드는 플레이 감각</sub>
+      <b>◇&nbsp;SYSTEM</b><br /><br />
+      <sub>움직임과 전투의 감각<br />규칙으로 빚는 플레이</sub>
     </td>
     <td width="33%" align="center">
-      <b>△ FORM</b><br /><br />
+      <b>△&nbsp;FORM</b><br /><br />
       <sub>3D 모델링으로 탐구하는<br />형태·재질·빛의 관계</sub>
     </td>
     <td width="33%" align="center">
-      <b>✦ ATMOSPHERE</b><br /><br />
-      <sub>서브컬처, 다크 판타지,<br />아방가르드한 시각 언어</sub>
+      <b>✦&nbsp;ATMOSPHERE</b><br /><br />
+      <sub>서브컬처와 다크 판타지<br />아방가르드한 시각 언어</sub>
     </td>
   </tr>
 </table>
