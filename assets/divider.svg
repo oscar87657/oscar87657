@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" role="presentation">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#77898e" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#9aabae" stop-opacity=".5"/>
+      <stop offset=".5" stop-color="#d4c8a7" stop-opacity=".85"/>
+      <stop offset=".65" stop-color="#9aabae" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#77898e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .pulse { transform-origin: 600px 28px; animation: pulse 5s ease-in-out infinite; }
+    .drift { animation: drift 8s ease-in-out infinite alternate; }
+    @keyframes pulse { 50% { transform: rotate(45deg) scale(.72); opacity: .55; } }
+    @keyframes drift { to { transform: translateX(34px); opacity: .25; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <path d="M82 28H1118" stroke="url(#line)"/>
+  <path class="pulse" d="M600 19L609 28L600 37L591 28Z" fill="none" stroke="#d4c8a7"/>
+  <g class="drift" fill="#b8c2be" opacity=".55">
+    <circle cx="516" cy="28" r="1.5"/>
+    <circle cx="684" cy="28" r="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Maboroshi glitch signature</title>
+  <desc id="desc">A pale glitch signature floats above a quiet ornamental line in blue-gray mist.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#111720"/>
+      <stop offset=".5" stop-color="#26323c"/>
+      <stop offset="1" stop-color="#111720"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#9aa9aa" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#cfc3a3" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#9aa9aa" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="mist"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <style>
+    .ghost-a { animation: glitchA 7s steps(1) infinite; }
+    .ghost-b { animation: glitchB 7s steps(1) infinite; }
+    .mist { animation: drift 13s ease-in-out infinite alternate; }
+    @keyframes glitchA { 0%,91%,94%,100% { transform: translate(0); opacity: 0; } 92% { transform: translate(-5px,1px); opacity: .38; } 93% { transform: translate(3px,-1px); opacity: .22; } }
+    @keyframes glitchB { 0%,94%,97%,100% { transform: translate(0); opacity: 0; } 95% { transform: translate(5px,-1px); opacity: .3; } 96% { transform: translate(-2px,1px); opacity: .18; } }
+    @keyframes drift { to { transform: translateX(80px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="180" rx="3" fill="url(#bg)"/>
+  <g class="mist" fill="none" stroke="#b8c6c8" stroke-opacity=".09" stroke-width="20" filter="url(#mist)">
+    <path d="M-160 93C152 21 355 131 600 82S1003 36 1360 101"/>
+  </g>
+  <g text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="9">
+    <text class="ghost-a" x="600" y="87" fill="#78c5c7">Σ∀ЪΘЯΦṢН/</text>
+    <text class="ghost-b" x="600" y="87" fill="#d0ad82">Σ∀ЪΘЯΦṢН/</text>
+    <text x="600" y="87" fill="#e4e7df">Σ∀ЪΘЯΦṢН/</text>
+  </g>
+  <text x="600" y="116" text-anchor="middle" fill="#9caaaa" font-family="Arial, sans-serif" font-size="9" letter-spacing="4">A TRACE BETWEEN CODE AND FORM</text>
+  <path d="M360 139H840" stroke="url(#fade)"/>
+  <path d="M600 133L606 139L600 145L594 139Z" fill="#d1c5a5" fill-opacity=".65"/>
+</svg>

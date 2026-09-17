@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Oscar — game developer and 3D artist</title>
+  <title id="title">Maboroshi — game developer and 3D artist</title>
   <desc id="desc">A moonlit abstract flower breathes while mist, petals, and fine ornamental lines drift across a dark blue-gray landscape.</desc>
 
   <defs>
@@ -93,7 +93,7 @@
 
     <g text-anchor="middle">
       <text x="600" y="92" fill="#c9d1cf" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="7">BETWEEN FORM AND LOGIC</text>
-      <text x="600" y="334" fill="#eef0e9" font-family="Georgia, 'Times New Roman', serif" font-size="46" letter-spacing="12">OSCAR</text>
+      <text x="600" y="334" fill="#eef0e9" font-family="Georgia, 'Times New Roman', serif" font-size="38" letter-spacing="7">M∀b◇R◆sh/</text>
       <text x="600" y="365" fill="#aeb9b9" font-family="Arial, sans-serif" font-size="10" letter-spacing="5">GAME DEVELOPER · 3D ARTIST</text>
     </g>
   </g>
