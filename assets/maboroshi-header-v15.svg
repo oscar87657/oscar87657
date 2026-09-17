@@ -111,7 +111,7 @@
     <g text-anchor="middle">
       <text x="600" y="101" fill="#aebabc" font-family="'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif JP', serif" font-size="13" letter-spacing="7">まぼろし工房</text>
 
-      <g text-anchor="start" fill="#e7e3d8" font-family="Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="9" filter="url(#softGlow)">
+      <g transform="translate(250)" text-anchor="middle" fill="#e7e3d8" font-family="Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="9" filter="url(#softGlow)">
         <text class="name-stable" x="350" y="224">M∀b◇R◆sh/</text>
         <text class="scramble-frame c01" x="350" y="224">Σ#Ъ△ЯΦṢН/</text>
         <text class="scramble-frame c02" x="350" y="224">Ж∀7◈R§λ?/</text>
