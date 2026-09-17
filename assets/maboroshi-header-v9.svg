@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">M∀b◇R◆sh/ — Maboroshi Works</title>
+  <desc id="desc">A dark atmospheric banner where the name periodically fractures into scrambled glyphs, then types itself back together among mist, red petals, and a blue-gray rose.</desc>
+
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d131c"/>
+      <stop offset=".5" stop-color="#202b36"/>
+      <stop offset="1" stop-color="#101721"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="48%" r="55%">
+      <stop offset="0" stop-color="#d9e0dc" stop-opacity=".28"/>
+      <stop offset=".52" stop-color="#83969b" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#83969b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="thread" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#83969b" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#d7ddd7" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#83969b" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur24"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="18" y="18" width="1164" height="384" rx="3"/></clipPath>
+    <clipPath id="typingClip"><rect class="type-mask" x="310" y="158" width="580" height="88"/></clipPath>
+    <clipPath id="sliceTop"><rect x="300" y="174" width="600" height="17"/></clipPath>
+    <clipPath id="sliceMid"><rect x="300" y="193" width="600" height="18"/></clipPath>
+    <clipPath id="sliceLow"><rect x="300" y="214" width="600" height="17"/></clipPath>
+  </defs>
+
+  <style>
+    .mist { animation: mist 20s ease-in-out infinite alternate; }
+    .mist.back { animation-duration: 29s; animation-direction: alternate-reverse; }
+    .thread { stroke-dasharray: 3 11; animation: trace 9s linear infinite; }
+    .spark { animation: flicker 4.5s ease-in-out infinite; }
+    .spark:nth-child(2n) { animation-delay: -2.1s; }
+    .rose-echo { transform-origin: 1006px 210px; animation: breathe 8s ease-in-out infinite; }
+    .petal-a { animation: petalA 13s ease-in-out infinite; }
+    .petal-b { animation: petalB 16s ease-in-out -7s infinite; }
+    .petal-c { animation: petalC 18s ease-in-out -11s infinite; }
+    .petal-d { animation: petalB 15s ease-in-out -3s infinite; }
+    .type-mask { animation: typeMask 14s steps(1,end) infinite; }
+    .scramble, .slice, .cursor, .scan { opacity: 0; }
+    .scramble { transform-box: fill-box; transform-origin: center; }
+    .scramble.one { transform: translate(-14px,2px) skewX(-9deg); animation: scrambleOne 14s linear infinite; }
+    .scramble.two { transform: translate(12px,-3px) skewX(7deg); animation: scrambleTwo 14s linear infinite; }
+    .scramble.three { transform: translate(-4px,5px) scaleX(1.04); animation: scrambleThree 14s linear infinite; }
+    .slice.red { animation: sliceRed 14s linear infinite; }
+    .slice.blue { animation: sliceBlue 14s linear infinite; }
+    .cursor { animation: cursor 14s steps(1,end) infinite; }
+    .scan { animation: scan 14s steps(1,end) infinite; }
+
+    @keyframes mist { to { transform: translate(92px,-8px); } }
+    @keyframes trace { to { stroke-dashoffset: -140; } }
+    @keyframes flicker { 50% { opacity: .18; transform: scale(.65); } }
+    @keyframes breathe { 50% { opacity: .19; transform: scale(1.035) rotate(2deg); } }
+    @keyframes petalA { 50% { transform: translate(38px,18px) rotate(28deg); } }
+    @keyframes petalB { 50% { transform: translate(-31px,25px) rotate(-36deg); } }
+    @keyframes petalC { 50% { transform: translate(22px,-18px) rotate(42deg); } }
+    @keyframes typeMask {
+      0%,65% { width: 580px; }
+      66%,77% { width: 0; }
+      78% { width: 48px; }
+      79% { width: 94px; }
+      80% { width: 142px; }
+      81% { width: 192px; }
+      82% { width: 246px; }
+      83% { width: 300px; }
+      84% { width: 354px; }
+      85% { width: 410px; }
+      86% { width: 468px; }
+      87% { width: 526px; }
+      88%,100% { width: 580px; }
+    }
+    @keyframes scrambleOne {
+      0%,65%,69%,100% { opacity: 0; }
+      66%,68% { opacity: .9; }
+    }
+    @keyframes scrambleTwo {
+      0%,68%,72%,100% { opacity: 0; }
+      69%,71% { opacity: .78; }
+    }
+    @keyframes scrambleThree {
+      0%,71%,78%,100% { opacity: 0; }
+      72%,77% { opacity: .62; }
+    }
+    @keyframes sliceRed {
+      0%,65%,78%,100% { opacity: 0; transform: translateX(0); }
+      66% { opacity: .72; transform: translateX(-20px); }
+      68% { opacity: .45; transform: translateX(16px); }
+      70% { opacity: .72; transform: translateX(-12px); }
+      72% { opacity: .42; transform: translateX(21px); }
+      74% { opacity: .7; transform: translateX(-17px); }
+      76%,77% { opacity: .48; transform: translateX(12px); }
+    }
+    @keyframes sliceBlue {
+      0%,65%,78%,100% { opacity: 0; transform: translateX(0); }
+      66% { opacity: .5; transform: translateX(22px); }
+      68% { opacity: .72; transform: translateX(-12px); }
+      70% { opacity: .48; transform: translateX(18px); }
+      72% { opacity: .7; transform: translateX(-19px); }
+      74% { opacity: .46; transform: translateX(15px); }
+      76%,77% { opacity: .66; transform: translateX(-10px); }
+    }
+    @keyframes cursor {
+      0%,65%,77%,89%,100% { opacity: 0; transform: translateX(0); }
+      78% { opacity: 1; transform: translateX(48px); }
+      79% { opacity: 0; transform: translateX(94px); }
+      80% { opacity: 1; transform: translateX(142px); }
+      81% { opacity: 0; transform: translateX(192px); }
+      82% { opacity: 1; transform: translateX(246px); }
+      83% { opacity: 0; transform: translateX(300px); }
+      84% { opacity: 1; transform: translateX(354px); }
+      85% { opacity: 0; transform: translateX(410px); }
+      86% { opacity: 1; transform: translateX(468px); }
+      87%,88% { opacity: .85; transform: translateX(526px); }
+    }
+    @keyframes scan {
+      0%,65%,78%,100% { opacity: 0; transform: translateY(-28px); }
+      66%,76% { opacity: .5; transform: translateY(-18px); }
+      68%,74% { opacity: .24; transform: translateY(24px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .scramble, .slice, .cursor, .scan { opacity: 0 !important; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#night)"/>
+    <ellipse cx="600" cy="204" rx="330" ry="185" fill="url(#halo)" filter="url(#blur24)"/>
+
+    <g class="mist back" fill="none" stroke="#83969b" stroke-opacity=".08" stroke-width="38" filter="url(#blur24)">
+      <path d="M-170 112C118 40 314 171 526 110S938 49 1380 121"/>
+      <path d="M-220 347C82 270 310 380 604 312S1012 253 1400 338"/>
+    </g>
+    <g class="mist" fill="none" stroke="#e7e3d8" stroke-opacity=".07" stroke-width="17" filter="url(#blur24)">
+      <path d="M-180 235C121 174 337 276 587 229S1009 169 1380 241"/>
+    </g>
+
+    <g fill="none" stroke-linecap="round">
+      <path class="thread" d="M98 251C279 64 844 54 1094 249" stroke="url(#thread)" stroke-width="1"/>
+      <path class="thread" d="M184 301C410 379 794 365 1018 285" stroke="#83969b" stroke-opacity=".25" stroke-width="1"/>
+      <path d="M350 202H850" stroke="#e7e3d8" stroke-opacity=".08"/>
+      <path d="M600 76V330" stroke="#83969b" stroke-opacity=".06"/>
+    </g>
+
+    <g class="rose-echo" transform="translate(1006 210)" fill="none" stroke="#83969b" stroke-width="2" opacity=".13">
+      <path d="M0 0C-35-11-53-47-26-75C9-72 31-39 17-8Z"/>
+      <path d="M0 0C16-34 53-47 79-19C70 18 37 34 8 18Z"/>
+      <path d="M0 0C34 18 42 56 13 79C-23 67-37 35-18 7Z"/>
+      <path d="M0 0C-19 33-58 40-80 9C-65-27-32-38-7-17Z"/>
+      <path d="M-25-4C-24-35 9-55 36-34C43-4 21 19-7 18Z"/>
+      <path d="M-23 9C-10-18 25-25 40-1C34 28 4 42-20 27Z"/>
+      <path d="M-9 4C-1-10 17-10 22 4C15 20-5 23-16 13Z"/>
+    </g>
+
+    <g fill="#b6474d" opacity=".72">
+      <path class="petal-a" d="M142 78C153 65 169 69 172 82C163 96 149 101 138 91C144 87 146 83 142 78Z"/>
+      <path class="petal-b" d="M252 302C263 289 280 293 283 307C274 320 260 325 249 315C255 311 257 307 252 302Z"/>
+      <path class="petal-c" d="M908 83C919 70 936 74 939 88C930 101 916 106 905 96C911 92 913 88 908 83Z"/>
+      <path class="petal-d" d="M1060 307C1071 294 1088 298 1091 312C1082 325 1068 330 1057 320C1063 316 1065 312 1060 307Z"/>
+    </g>
+
+    <g fill="#d9d4c5" opacity=".52">
+      <circle class="spark" cx="284" cy="149" r="1.7"/>
+      <circle class="spark" cx="389" cy="89" r="1.2"/>
+      <circle class="spark" cx="820" cy="106" r="1.5"/>
+      <circle class="spark" cx="927" cy="273" r="1.8"/>
+      <circle class="spark" cx="336" cy="292" r="1.4"/>
+    </g>
+
+    <g text-anchor="middle">
+      <text x="600" y="101" fill="#aebabc" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="7">MABOROSHI WORKS · 幻影工房</text>
+
+      <g font-family="Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="9">
+        <g clip-path="url(#typingClip)">
+          <text x="600" y="224" fill="#e7e3d8" filter="url(#softGlow)">M∀b◇R◆sh/</text>
+        </g>
+        <text class="scramble one" x="600" y="224" fill="#e7e3d8">Σ∀ЪΘЯΦṢН/</text>
+        <text class="scramble two" x="600" y="224" fill="#83969b">M∀Ъ◈Я◆ѕh//</text>
+        <text class="scramble three" x="600" y="224" fill="#b6474d">/◆RΣb∀M◇sh</text>
+        <text class="slice red" x="600" y="224" fill="#b6474d" clip-path="url(#sliceTop)">M∀b◇R◆sh/</text>
+        <text class="slice blue" x="600" y="224" fill="#83969b" clip-path="url(#sliceMid)">M∀b◇R◆sh/</text>
+        <text class="slice red" x="600" y="224" fill="#b6474d" clip-path="url(#sliceLow)">M∀b◇R◆sh/</text>
+      </g>
+
+      <rect class="cursor" x="310" y="174" width="3" height="58" fill="#b6474d"/>
+      <path class="scan" d="M348 202H852" stroke="#83969b" stroke-width="1"/>
+
+      <text x="600" y="282" fill="#aebabc" font-family="Arial, sans-serif" font-size="10" letter-spacing="5">GAME DEVELOPMENT · 3D ART · WORLDBUILDING</text>
+      <text x="600" y="321" fill="#d3cbc0" fill-opacity=".68" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" letter-spacing="2">where illusion takes form</text>
+    </g>
+  </g>
+
+  <rect x="18.5" y="18.5" width="1163" height="383" rx="3" fill="none" stroke="#83969b" stroke-opacity=".28"/>
+  <path d="M18 58V18H58M1142 18H1182V58M1182 362V402H1142M58 402H18V362" fill="none" stroke="#e7e3d8" stroke-opacity=".42"/>
+  <g fill="#b6474d" opacity=".62">
+    <circle cx="63" cy="63" r="2"/><circle cx="1137" cy="357" r="2"/>
+  </g>
+</svg>

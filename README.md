@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/maboroshi-header-v8.svg" width="100%" alt="안개 속에서 뒤쪽은 넓은 곡선을 그리는 붉은 장미꽃잎으로 흩날리고 타격점에는 푸른 장미가 피는 망치 문양과 M∀b◇R◆sh/라는 이름이 떠오르는 애니메이션 배너" />
+  <img src="./assets/maboroshi-header-v9.svg" width="100%" alt="안개와 장미꽃잎 사이에서 M∀b◇R◆sh/라는 닉네임이 주기적으로 글리치되고 다시 타이핑되는 애니메이션 배너" />
 </p>
 
 <p align="center">
