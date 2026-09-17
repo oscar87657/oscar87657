@@ -49,7 +49,7 @@
     </td>
     <td width="33%" align="center">
       <b>△ FORM</b><br /><br />
-      <sub>3D 모델링을 통해 탐구하는<br />형태·재질·빛의 관계</sub>
+      <sub>3D 모델링으로 탐구하는<br />형태·재질·빛의 관계</sub>
     </td>
     <td width="33%" align="center">
       <b>✦ ATMOSPHERE</b><br /><br />
