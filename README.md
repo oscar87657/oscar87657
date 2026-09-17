@@ -112,5 +112,5 @@ DRAWN TO  Subculture · Dark Fantasy · Experimental Interface
 </p>
 
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Σ∀ЪΘЯΦṢН/ 글리치 서명이 나타나는 장식" />
+  <img src="./assets/maboroshi-footer-v2.svg" width="100%" alt="안개와 붉은 꽃잎 사이에 M∀b◇R◆sh/와 まぼろし工房이 새겨진 하단 인장" />
 </p>

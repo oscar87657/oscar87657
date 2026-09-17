@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">M∀b◇R◆sh/ — Maboroshi Works</title>
+  <desc id="desc">A quiet Maboroshi Works signature surrounded by blue-gray mist and drifting red petals.</desc>
+
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#0d131c"/>
+      <stop offset=".5" stop-color="#202b36"/>
+      <stop offset="1" stop-color="#0d131c"/>
+    </linearGradient>
+    <linearGradient id="thread" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#83969b" stop-opacity="0"/>
+      <stop offset=".46" stop-color="#d7ddd7" stop-opacity=".42"/>
+      <stop offset=".54" stop-color="#d7ddd7" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#83969b" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blurred"/>
+      <feMerge><feMergeNode in="blurred"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="18" y="12" width="1164" height="156" rx="3"/></clipPath>
+  </defs>
+
+  <style>
+    .mist { animation: drift 20s ease-in-out infinite alternate; }
+    .petal-a { animation: petalA 13s ease-in-out infinite; }
+    .petal-b { animation: petalB 16s ease-in-out -7s infinite; }
+    .seal { animation: breathe 7s ease-in-out infinite; }
+    @keyframes drift { to { transform: translateX(90px); } }
+    @keyframes petalA { 50% { transform: translate(28px,11px) rotate(25deg); } }
+    @keyframes petalB { 50% { transform: translate(-24px,-9px) rotate(-32deg); } }
+    @keyframes breathe { 50% { opacity: .76; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="180" fill="url(#night)"/>
+    <g class="mist" fill="none" stroke="#d7ddd7" stroke-opacity=".08" stroke-width="24" filter="url(#blur)">
+      <path d="M-170 100C145 34 360 137 608 88S1010 39 1370 102"/>
+    </g>
+
+    <g fill="#b6474d" opacity=".7">
+      <path class="petal-a" d="M165 50C174 39 188 42 191 54C183 65 171 69 162 61C167 58 168 54 165 50Z"/>
+      <path class="petal-b" d="M1026 116C1035 105 1049 108 1052 120C1044 131 1032 135 1023 127C1028 124 1029 120 1026 116Z"/>
+    </g>
+
+    <g text-anchor="middle">
+      <text class="seal" x="600" y="78" fill="#e7e3d8" font-family="Georgia, 'Times New Roman', serif" font-size="29" letter-spacing="8" filter="url(#glow)">M∀b◇R◆sh/</text>
+      <text x="600" y="112" fill="#aebabc" font-family="'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif JP', serif" font-size="10" letter-spacing="6">まぼろし工房</text>
+    </g>
+
+    <path d="M325 140H875" stroke="url(#thread)"/>
+    <path d="M600 134L606 140L600 146L594 140Z" fill="#b6474d" fill-opacity=".72"/>
+  </g>
+
+  <rect x="18.5" y="12.5" width="1163" height="155" rx="3" fill="none" stroke="#83969b" stroke-opacity=".22"/>
+  <path d="M18 38V12H44M1156 12H1182V38M1182 142V168H1156M44 168H18V142" fill="none" stroke="#e7e3d8" stroke-opacity=".3"/>
+</svg>
