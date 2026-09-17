@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Maboroshi Works identity</title>
+  <desc id="desc">Three equal panels describing system design, 3D form, and atmosphere.</desc>
+
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0d131c"/>
+      <stop offset=".5" stop-color="#18232d"/>
+      <stop offset="1" stop-color="#0d131c"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="45%" r="62%">
+      <stop stop-color="#83969b" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#83969b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="18" y="18" width="1164" height="344" rx="3" fill="url(#night)"/>
+  <rect x="18.5" y="18.5" width="1163" height="343" rx="3" fill="none" stroke="#83969b" stroke-opacity=".58"/>
+  <rect x="18" y="18" width="1164" height="344" fill="url(#halo)"/>
+  <path d="M406 18V362M794 18V362" stroke="#83969b" stroke-opacity=".58"/>
+
+  <g text-anchor="middle" fill="#dbe7f2" font-family="Arial, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+    <g font-size="34" font-weight="700">
+      <text x="212" y="112">◇ SYSTEM</text>
+      <text x="600" y="112">△ FORM</text>
+      <text x="988" y="112">✦ ATMOSPHERE</text>
+    </g>
+
+    <g font-size="24">
+      <text x="212" y="224">움직임과 전투의 감각</text>
+      <text x="212" y="278">규칙으로 빚는 플레이</text>
+
+      <text x="600" y="224">3D 모델링과 형태</text>
+      <text x="600" y="278">재질·빛의 관계 탐구</text>
+
+      <text x="988" y="224">서브컬처와 다크 판타지</text>
+      <text x="988" y="278">아방가르드한 시각 언어</text>
+    </g>
+  </g>
+</svg>
