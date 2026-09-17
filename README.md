@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="안개와 꽃잎 사이에서 M∀b◇R◆sh/라는 이름과 꽃 문양이 떠오르는 애니메이션 배너" />
+  <img src="./assets/maboroshi-header.svg" width="100%" alt="안개와 꽃잎 사이에서 M∀b◇R◆sh/라는 이름과 꽃 문양이 떠오르는 애니메이션 배너" />
 </p>
 
 <p align="center">
