@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">M∀b◇R◆sh/ — Maboroshi Works</title>
-  <desc id="desc">A diagonal hammer blooms into three petals and fading fragments while fine ornamental lines drift across a dark blue-gray landscape.</desc>
+  <desc id="desc">The rear of a diagonal hammer dissolves into fading fragments while a small flower blooms at its opposite impact point.</desc>
 
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
@@ -72,15 +72,20 @@
 
     <g class="bloom">
       <circle cx="600" cy="199" r="79" fill="#111821" fill-opacity=".82" stroke="#83969b" stroke-opacity=".42"/>
-      <path d="M550 213L571 192L612 233L591 254L548 215Z" fill="#e7e3d8"/>
-      <path d="M587 211L596 220L647 169L638 160Z" fill="#e7e3d8"/>
-      <path d="M561 203C548 197 541 184 541 171C551 177 558 188 561 203Z" fill="#83969b"/>
-      <path d="M558 205C545 209 532 204 524 194C539 192 551 196 558 205Z" fill="#83969b"/>
-      <path d="M560 207C550 216 539 216 530 211C539 205 550 204 560 207Z" fill="#83969b"/>
-      <path d="M566 208C559 205 557 198 559 192C565 197 568 202 566 208Z" fill="#111821"/>
-      <rect x="518" y="184" width="7" height="5" fill="#83969b"/>
-      <rect x="508" y="176" width="6" height="4" fill="#83969b"/>
-      <rect x="503" y="190" width="5" height="4" fill="#83969b"/>
+      <g transform="rotate(42 586 214)">
+        <path d="M553 198H638V232H553L547 228V222H550V215H544V208H550V202Z" fill="#e7e3d8"/>
+        <path d="M584 205V135H596V205Z" fill="#e7e3d8"/>
+        <path d="M535 201H544V210H535Z" fill="#e7e3d8" fill-opacity=".82"/>
+        <path d="M522 202H529V209H522Z" fill="#83969b" fill-opacity=".68"/>
+        <path d="M512 203H517V208H512Z" fill="#83969b" fill-opacity=".42"/>
+        <g fill="#83969b">
+          <ellipse cx="645" cy="207" rx="4" ry="7"/>
+          <ellipse cx="654" cy="216" rx="7" ry="4"/>
+          <ellipse cx="645" cy="225" rx="4" ry="7"/>
+          <ellipse cx="638" cy="216" rx="7" ry="4"/>
+        </g>
+        <circle cx="645" cy="216" r="3" fill="#e7e3d8"/>
+      </g>
     </g>
 
     <g fill="#d8d1b6" opacity=".6">

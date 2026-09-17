@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/maboroshi-header-v3.svg" width="100%" alt="안개 속에서 M∀b◇R◆sh/라는 이름과 꽃잎으로 소실되는 망치 문양이 떠오르는 애니메이션 배너" />
+  <img src="./assets/maboroshi-header-v4.svg" width="100%" alt="안개 속에서 뒤쪽은 소실되고 타격점에는 꽃이 피는 망치 문양과 M∀b◇R◆sh/라는 이름이 떠오르는 애니메이션 배너" />
 </p>
 
 <p align="center">
@@ -22,13 +22,13 @@
 <table>
   <tr>
     <td width="30%" align="center">
-      <img src="./assets/maboroshi-works-logo-v3.png" width="180" alt="망치 머리의 뒤쪽이 꽃잎과 파편으로 소실되는 환영공방 로고" />
+      <img src="./assets/maboroshi-works-logo-v4.png" width="180" alt="뒤쪽은 파편으로 소실되고 타격점에는 꽃이 피는 환영공방의 망치 로고" />
     </td>
     <td width="70%" valign="middle">
       <h2>환영공방</h2>
       <p><samp>MABOROSHI WORKS · 幻影工房</samp></p>
       <p><b>보이지 않던 세계를 빚습니다.</b></p>
-      <sub>게임의 규칙과 3D 형태, 빛과 움직임으로 아직 형태를 얻지 못한 환영을 플레이 가능한 세계로 만드는 개인 창작 레이블.<br /><br />꽃잎은 형태 이전의 상상, 망치는 그것을 구현하는 기술, 흩어지는 조각은 완성 뒤에도 남는 환영의 잔상을 뜻합니다.</sub>
+      <sub>게임의 규칙과 3D 형태, 빛과 움직임으로 아직 형태를 얻지 못한 환영을 플레이 가능한 세계로 만드는 개인 창작 레이블.<br /><br />뒤쪽이 소실되는 망치는 환영이 현실의 형태를 얻는 과정, 타격점에서 피는 꽃은 기술이 새로운 세계를 탄생시키는 순간을 뜻합니다.</sub>
     </td>
   </tr>
 </table>
