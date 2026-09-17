@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/maboroshi-header-v9.svg" width="100%" alt="안개와 장미꽃잎 사이에서 M∀b◇R◆sh/라는 닉네임이 주기적으로 글리치되고 다시 타이핑되는 애니메이션 배너" />
+  <img src="./assets/maboroshi-header-v10.svg" width="100%" alt="안개와 장미꽃잎 사이에서 닉네임이 무작위 문자로 변한 뒤 M∀b◇R◆sh/로 한 글자씩 복원되는 애니메이션 배너" />
 </p>
 
 <p align="center">
