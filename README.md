@@ -41,7 +41,27 @@
 
 ### Ⅱ — IDENTITY
 
-<img src="./assets/maboroshi-identity-v1.svg" width="100%" alt="SYSTEM, FORM, ATMOSPHERE 세 영역으로 구성된 환영공방의 창작 정체성" />
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="33%" align="center">◇&nbsp;SYSTEM</th>
+      <th width="34%" align="center">△&nbsp;FORM</th>
+      <th width="33%" align="center">✦&nbsp;ATMOSPHERE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">움직임과 전투의 감각</td>
+      <td align="center">3D 모델링과 형태</td>
+      <td align="center">서브컬처와 다크 판타지</td>
+    </tr>
+    <tr>
+      <td align="center">규칙으로 빚는 플레이</td>
+      <td align="center">재질·빛의 관계 탐구</td>
+      <td align="center">아방가르드한 시각 언어</td>
+    </tr>
+  </tbody>
+</table>
 
 <br />
 
