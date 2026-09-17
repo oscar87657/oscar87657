@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">M∀b◇R◆sh/ — game developer and 3D artist</title>
-  <desc id="desc">A moonlit abstract flower breathes while mist, petals, and fine ornamental lines drift across a dark blue-gray landscape.</desc>
+  <desc id="desc">A moonlit hammer-flower emblem breathes while mist, petals, and fine ornamental lines drift across a dark blue-gray landscape.</desc>
 
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
@@ -73,8 +73,9 @@
     <g class="bloom" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <circle cx="600" cy="199" r="79" fill="#18212a" fill-opacity=".72" stroke="#d7ccb0" stroke-opacity=".45"/>
       <path d="M600 249C584 221 559 206 531 199C558 192 580 173 600 143C620 173 642 192 669 199C641 206 616 221 600 249Z" fill="url(#petal)" stroke="#dae1dc" stroke-opacity=".56"/>
-      <path d="M600 236C577 214 566 185 567 157C588 174 612 174 633 157C634 185 623 214 600 236Z" fill="#afbfc0" fill-opacity=".18" stroke="#d8ddd6" stroke-opacity=".5"/>
-      <path d="M600 255V293M590 270C566 257 549 237 538 214M610 270C634 257 651 237 662 214" stroke="#a99d7d" stroke-opacity=".65"/>
+      <path d="M574 185H626L632 191L626 197H574L568 191Z" fill="#dce2dc" fill-opacity=".72" stroke="#d7ccb0" stroke-opacity=".75"/>
+      <path d="M596 197H604L607 253L600 266L593 253Z" fill="#c7d1cf" fill-opacity=".62" stroke="#d7ccb0" stroke-opacity=".72"/>
+      <path d="M600 266V293M590 270C566 257 549 237 538 214M610 270C634 257 651 237 662 214" stroke="#a99d7d" stroke-opacity=".65"/>
       <circle cx="600" cy="198" r="6" fill="#ded4b6" stroke="none" filter="url(#glow)"/>
     </g>
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/maboroshi-header.svg" width="100%" alt="안개와 꽃잎 사이에서 M∀b◇R◆sh/라는 이름과 꽃 문양이 떠오르는 애니메이션 배너" />
+  <img src="./assets/maboroshi-header.svg" width="100%" alt="안개와 꽃잎 사이에서 M∀b◇R◆sh/라는 이름과 망치꽃 문양이 떠오르는 애니메이션 배너" />
 </p>
 
 <p align="center">
@@ -17,7 +17,29 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-### Ⅰ — IDENTITY
+### Ⅰ — THE WORKSHOP
+
+<table>
+  <tr>
+    <td width="30%" align="center">
+      <img src="./assets/maboroshi-works-logo.png" width="180" alt="결정꽃과 망치가 결합된 환영공방 로고" />
+    </td>
+    <td width="70%" valign="middle">
+      <h2>환영공방</h2>
+      <p><samp>MABOROSHI WORKS · 幻影工房</samp></p>
+      <p><b>보이지 않던 세계를 빚습니다.</b></p>
+      <sub>게임의 규칙과 3D 형태, 빛과 움직임으로 아직 형태를 얻지 못한 환영을 플레이 가능한 세계로 만드는 개인 창작 레이블.</sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <i>환영은 없는 것이 아니라, 아직 형태를 얻지 못한 것.</i>
+</p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+### Ⅱ — IDENTITY
 
 <table>
   <tr>
@@ -42,7 +64,7 @@ Unity로 시스템을 구현하고 Blender로 세계의 형태를 탐구합니�
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-### Ⅱ — SELECTED WORK
+### Ⅲ — SELECTED WORK
 
 <table>
   <tr>
@@ -72,7 +94,7 @@ Unity로 시스템을 구현하고 Blender로 세계의 형태를 탐구합니�
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-### Ⅲ — CURRENT SIGNAL
+### Ⅳ — CURRENT SIGNAL
 
 ```text
 NOW       Unity 기반 게임 시스템과 플레이 감각 연구
