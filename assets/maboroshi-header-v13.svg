@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">M∀b◇R◆sh/ — Maboroshi Works</title>
-  <desc id="desc">A dark atmospheric banner where the name rapidly cycles through random glyphs, then resolves one character at a time from left to right among mist and drifting red petals.</desc>
+  <desc id="desc">A dark atmospheric banner for Maboroshi Works where the name rapidly scrambles, then resolves one character at a time from left to right among mist and drifting red petals.</desc>
 
   <defs>
     <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
@@ -37,22 +37,26 @@
     .petal-c { animation: petalC 18s ease-in-out -11s infinite; }
     .petal-d { animation: petalB 15s ease-in-out -3s infinite; }
     .name-stable { animation: stableName 16s linear infinite; }
-    .decode-frame { opacity: 0; animation: decodeFrame 16s linear infinite; }
-    .f01 { animation-delay: 13.28s; }
-    .f02 { animation-delay: 13.46s; }
-    .f03 { animation-delay: 13.64s; }
-    .f04 { animation-delay: 13.82s; }
-    .f05 { animation-delay: 14.00s; }
-    .f06 { animation-delay: 14.18s; }
-    .f07 { animation-delay: 14.36s; }
-    .f08 { animation-delay: 14.54s; }
-    .f09 { animation-delay: 14.72s; }
-    .f10 { animation-delay: 14.90s; }
-    .f11 { animation-delay: 15.08s; }
-    .f12 { animation-delay: 15.26s; }
-    .f13 { animation-delay: 15.44s; }
-    .f14 { animation-delay: 15.62s; }
-    .f15 { animation-delay: 15.80s; }
+    .scramble-frame, .resolve-frame, .settle-frame { opacity: 0; animation: scrambleFrame 16s linear infinite; }
+    .resolve-frame { animation-name: resolveFrame; }
+    .settle-frame { animation-name: settleFrame; }
+    .c01 { animation-delay: 13.00s; }
+    .c02 { animation-delay: 13.12s; }
+    .c03 { animation-delay: 13.24s; }
+    .c04 { animation-delay: 13.36s; }
+    .c05 { animation-delay: 13.48s; }
+    .c06 { animation-delay: 13.60s; }
+    .c07 { animation-delay: 13.72s; }
+    .c08 { animation-delay: 13.84s; }
+    .r01 { animation-delay: 13.96s; }
+    .r02 { animation-delay: 14.18s; }
+    .r03 { animation-delay: 14.40s; }
+    .r04 { animation-delay: 14.62s; }
+    .r05 { animation-delay: 14.84s; }
+    .r06 { animation-delay: 15.06s; }
+    .r07 { animation-delay: 15.28s; }
+    .r08 { animation-delay: 15.50s; }
+    .r09 { animation-delay: 15.72s; }
 
     @keyframes mist { to { transform: translate(92px,-8px); } }
     @keyframes trace { to { stroke-dashoffset: -140; } }
@@ -60,15 +64,16 @@
     @keyframes petalA { 50% { transform: translate(38px,18px) rotate(28deg); } }
     @keyframes petalB { 50% { transform: translate(-31px,25px) rotate(-36deg); } }
     @keyframes petalC { 50% { transform: translate(22px,-18px) rotate(42deg); } }
-    @keyframes stableName { 0%,82.9%,100% { opacity: 1; } 83%,99.9% { opacity: 0; } }
-    @keyframes decodeFrame { 0%,1.15% { opacity: 1; } 1.18%,100% { opacity: 0; } }
+    @keyframes stableName { 0%,81.19%,100% { opacity: 1; } 81.25%,99.9% { opacity: 0; } }
+    @keyframes scrambleFrame { 0%,.74% { opacity: 1; } .75%,100% { opacity: 0; } }
+    @keyframes resolveFrame { 0%,1.36% { opacity: 1; } 1.37%,100% { opacity: 0; } }
+    @keyframes settleFrame { 0%,1.74% { opacity: 1; } 1.75%,100% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
       * { animation: none !important; }
       .name-stable { opacity: 1 !important; }
-      .decode-frame { display: none; }
+      .scramble-frame, .resolve-frame, .settle-frame { display: none; }
     }
   </style>
-
   <g clip-path="url(#frame)">
     <rect width="1200" height="420" fill="url(#night)"/>
     <ellipse cx="600" cy="204" rx="330" ry="185" fill="url(#halo)" filter="url(#blur24)"/>
@@ -104,29 +109,31 @@
     </g>
 
     <g text-anchor="middle">
-      <text x="600" y="101" fill="#aebabc" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="7">MABOROSHI WORKS · 幻影工房</text>
+      <text x="600" y="101" fill="#aebabc" font-family="'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif JP', serif" font-size="13" letter-spacing="7">まぼろし工房</text>
 
       <g text-anchor="start" fill="#e7e3d8" font-family="Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="9" filter="url(#softGlow)">
         <text class="name-stable" x="350" y="224">M∀b◇R◆sh/</text>
-        <text class="decode-frame f01" x="350" y="224">Σ#Ъ△ЯΦṢН/</text>
-        <text class="decode-frame f02" x="350" y="224">Ж∀7◈R§λ?/</text>
-        <text class="decode-frame f03" x="350" y="224">MΔb×Я◆5h|</text>
-        <text class="decode-frame f04" x="350" y="224">/◆RΣb∀M◇h</text>
-        <text class="decode-frame f05" x="350" y="224">Φ∀b□Я◇sН/</text>
-        <text class="decode-frame f06" x="350" y="224">M?Ъ◇R#ѕh/</text>
-        <text class="decode-frame f07" x="350" y="224">M?Ъ△Я◇ṢН/</text>
-        <text class="decode-frame f08" x="350" y="224">M∀?△Я◇ṢН/</text>
-        <text class="decode-frame f09" x="350" y="224">M∀b?Я◇ṢН/</text>
-        <text class="decode-frame f10" x="350" y="224">M∀b◇?◇ṢН/</text>
-        <text class="decode-frame f11" x="350" y="224">M∀b◇R?ṢН/</text>
-        <text class="decode-frame f12" x="350" y="224">M∀b◇R◆?Н/</text>
-        <text class="decode-frame f13" x="350" y="224">M∀b◇R◆s?/</text>
-        <text class="decode-frame f14" x="350" y="224">M∀b◇R◆sh?</text>
-        <text class="decode-frame f15" x="350" y="224">M∀b◇R◆sh/</text>
+        <text class="scramble-frame c01" x="350" y="224">Σ#Ъ△ЯΦṢН/</text>
+        <text class="scramble-frame c02" x="350" y="224">Ж∀7◈R§λ?/</text>
+        <text class="scramble-frame c03" x="350" y="224">MΔb×Я◆5h|</text>
+        <text class="scramble-frame c04" x="350" y="224">/◆RΣb∀M◇h</text>
+        <text class="scramble-frame c05" x="350" y="224">Φ∀b□Я◇sН/</text>
+        <text class="scramble-frame c06" x="350" y="224">M?Ъ◇R#ѕh/</text>
+        <text class="scramble-frame c07" x="350" y="224">Δ7b◈Я§Ṣ?/</text>
+        <text class="scramble-frame c08" x="350" y="224">#∀×◇Φ◆λН|</text>
+        <text class="resolve-frame r01" x="350" y="224">M#7△ЯΦṢН/</text>
+        <text class="resolve-frame r02" x="350" y="224">M∀×◈R§λ?/</text>
+        <text class="resolve-frame r03" x="350" y="224">M∀b△Я◆5h|</text>
+        <text class="resolve-frame r04" x="350" y="224">M∀b◇Σ?Mλ/</text>
+        <text class="resolve-frame r05" x="350" y="224">M∀b◇R#ѕН/</text>
+        <text class="resolve-frame r06" x="350" y="224">M∀b◇R◆?Ж/</text>
+        <text class="resolve-frame r07" x="350" y="224">M∀b◇R◆s?/</text>
+        <text class="resolve-frame r08" x="350" y="224">M∀b◇R◆sh?</text>
+        <text class="settle-frame r09" x="350" y="224">M∀b◇R◆sh/</text>
       </g>
 
       <text x="600" y="282" fill="#aebabc" font-family="Arial, sans-serif" font-size="10" letter-spacing="5">GAME DEVELOPMENT · 3D ART · WORLDBUILDING</text>
-      <text x="600" y="321" fill="#d3cbc0" fill-opacity=".68" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" letter-spacing="2">where illusion takes form</text>
+      <text x="600" y="321" fill="#d3cbc0" fill-opacity=".68" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" letter-spacing="1.6">“A hunter is a hunter, even in a dream.” — BLOODBORNE</text>
     </g>
   </g>
 
