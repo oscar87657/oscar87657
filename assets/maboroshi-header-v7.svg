@@ -76,13 +76,15 @@
         <path d="M556 198H638V232H553C547 232 550 225 545 225C538 224 542 217 548 217C554 217 552 211 547 209C541 206 547 200 553 203C559 206 554 198 556 198Z" fill="#e7e3d8"/>
         <path d="M584 205V135H596V205Z" fill="#e7e3d8"/>
         <g fill="#b6474d">
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(539 216) rotate(-25) scale(.72)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(527 222) rotate(12) scale(.78)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(515 224) rotate(-18) scale(.86)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(506 216) rotate(32) scale(.76)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(502 204) rotate(-8) scale(.68)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(505 190) rotate(38) scale(.60)"/>
-          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(514 178) rotate(-16) scale(.50)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(543 216) rotate(-24) scale(.62)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(535 212) rotate(16) scale(.72)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(528 213) rotate(-18) scale(.76)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(521 207) rotate(34) scale(.72)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(516 205) rotate(-8) scale(.66)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(512 197) rotate(38) scale(.60)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(509 190) rotate(-14) scale(.55)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(507 183) rotate(28) scale(.48)"/>
+          <path d="M0 0C5-5 11-3 12 2C9 7 4 8 0 5C2 3 2 2 0 0Z" transform="translate(509 176) rotate(-18) scale(.42)"/>
         </g>
         <g transform="translate(646 216)" fill="#83969b" stroke="#111821" stroke-width="2">
           <path d="M0 0C-8-3-12-12-5-20C4-19 9-10 5-2Z"/>
